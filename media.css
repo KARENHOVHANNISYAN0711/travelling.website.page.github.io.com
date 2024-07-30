@@ -1,0 +1,284 @@
+@media only screen and (max-width:1290px){
+    .travel-h1-text{
+        font-size:64px;
+    }
+    .travel-img{
+        width:665px;
+    }
+    .footer-logo-img{
+        width:120px;
+    }
+    .footer-h6-text{
+        font-size:10px;
+    }
+    .paragraf-footer{
+        font-size:18px;
+    }
+    .footer-h3-text{
+        font-size:14px;
+    }
+}
+
+@media only screen and (max-width:1156px){
+    .travel-img{
+        width:565px;
+    }
+    .conteiner-footer{
+        flex-wrap:wrap;
+        gap:60px;
+    }
+    .footer-icon-div{
+        margin-top:40px;
+    }
+}
+
+@media only screen and (max-width:1051px){
+    .travel-img{
+        width:365px;
+    }
+}
+
+@media only screen and (max-width:1045px){
+    .conteiner-travell-logo{
+        width:700px;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+}
+
+@media only screen and (max-width:1026px){
+    .section-trave{
+        overflow:hidden;
+    }
+    .travel-conteiner{
+        flex-direction:column;
+    }
+    .travel-text-div{
+        margin-left:230px;
+    }
+    .travel-h1-text{
+        font-size:84px;
+    }
+    .servisec-text-div{
+        flex-wrap:wrap !important;
+    }
+    .servisec-text-div{
+        width:90%;
+        gap:40px;
+    }
+}
+
+@media only screen and (max-width:985px){
+    .header-link>li>a{
+        font-size:10px;
+    }
+}
+
+@media only screen and (max-width:958px){
+    .destinations-img{
+        width:260px;
+    }
+}
+
+@media only screen and (max-width:943px){
+    .conteiner-book-trip{
+        overflow:hidden;
+        flex-direction:column;
+    }
+    .book-trip-text-div{
+        display:flex;
+        align-items:center;
+    }
+    .grece-travell{
+        width:670px;
+        height:500px;
+    }
+}
+
+@media only screen and (max-width:846px){
+    .section-travel{
+        overflow:hidden !important;
+    }
+}
+
+@media only screen and (max-width:815px){
+    .header-link{
+        display:none;
+    }
+    .menu-bar{
+        display:block;
+        font-size:30px;
+        margin-top:20px;
+    }  
+    .travel-text-div{
+        margin-left:130px;
+    }
+}
+
+@media only screen and (max-width:796px){
+    .destinations-img{
+        width:220px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .servisec-text-div{
+        display:flex;
+        justify-content:center;
+        margin-left:15px;
+    }
+}
+
+@media only screen and (max-width:746px){
+    .travel-conteiner{
+        overflow:hidden !important;
+    }
+    .travel-img{
+        width:700px;
+        margin-right:120px;
+    }
+}
+
+@media only screen and (max-width:677px){
+    .paragraf-travel{
+        font-size:15px;
+    }
+    .travel-h1-text{
+        font-size:74px;
+    }
+    .travel-h4-text{
+        font-size:13px;
+    }
+    .travel-img{
+        width:600px;
+    }
+    .destinations-img-div{
+        flex-wrap:wrap;
+    }
+    .destinations-img{
+        width:314px;
+        margin:0 auto;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .grece-travell{
+        width:560px;
+    }
+}
+
+@media only screen and (max-width:636px){
+    .footer{
+        overflow:hidden;
+    }
+    .conteiner-footer{
+        margin-right:120px;
+    }
+}
+
+@media only screen and (max-width:625px){
+    .paragraf-travel{
+        margin-left:40px;
+    }
+    .travel-h1-text{
+        margin-left:30px !important;
+    }
+    .travel-h4-text{
+        margin-left:40px;
+    }
+    .travel-display-flex-div{
+        margin-left:40px;
+    }
+    .paragraf-book-trip{
+        font-size:45px !important;
+    }
+    .book-trip-div{
+        flex-direction:column;
+        gap:20px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .travel-img{
+        width:500px;
+    }
+    .grece-travell{
+        width:500px;
+    }
+    .paragraf-book-trip{
+        font-size:35px !important;
+    }
+}
+
+@media only screen and (max-width:540px){
+    .paragraf-travel{
+        margin-left:95px;
+    }
+    .travel-h1-text{
+        font-size:60px;
+        margin-left:90px !important;
+    }
+    .travel-h4-text{
+        margin-left:90px;
+    }
+    .travel-display-flex-div{
+        margin-left:80px;
+    }
+
+}
+
+@media only screen and (max-width:535px){
+    .footer-div{
+        flex-wrap:wrap;
+        gap:50px;
+    }
+}
+
+@media only screen and (max-width:475px){
+    .paragraf-travel{
+        font-size:14px;
+    }
+    .travel-h1-text{
+        font-size:50px;
+    }
+    .travel-h4-text{
+        font-size:10px;
+    }
+    .travel-display-flex-div{
+        margin-left:80px;
+    }
+    .travel-display-flex-div{
+        width:280px;
+        margin-left:100px;
+    }
+    .travel-img{
+        width:400px;
+        margin-left:50px;
+    }
+    .grece-travell{
+        width:400px;
+    }
+    .paragraf-choose-destination{
+        text-align:center;
+    }
+    .lorem-h4-text{
+        font-size:13px;
+        text-align:center;
+        margin-top:15px;
+    }
+}
+
+@media only screen and (max-width:445px){
+    .paragraf-book-trip{
+        font-size:30px !important;
+    }
+    .travell-img{
+        width:300px !important;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .destinations-img{
+        width:380px;
+    }
+}

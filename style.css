@@ -1,0 +1,448 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#header{
+    width:100%;
+    padding:30px;
+    background:#FFFFFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header-conteiner{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.menu-bar{
+    display:none;
+}
+
+.header-link{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+
+.header-link>li>a{
+    text-decoration:none;
+    color:#212832;
+    font-family:Sans;
+    font-size:17px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+}
+
+.button-sign-up{
+    width:102px;
+    height:40px;
+    border:1px solid #212832;
+    border-radius:5px;
+    background:#FFF1DA;
+    color:#212832;
+    font-family:"Google Sans";
+    font-size:17px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    cursor:pointer;
+}
+
+.section-travel{
+    width:100%;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#FFFFFF;
+}
+
+.travel-conteiner{
+    width:88%;
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.travel-img{
+    margin-top:30px;
+}
+
+.travel-text-div{
+    width:600px;
+}
+
+.paragraf-travel{
+    color:#DF6951;
+    font-family:Poppins;
+    font-size:20px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    text-transform:uppercase;
+}
+
+.travel-h1-text{
+    color:var(--1st, #181E4B);
+    font-family:Volkhov;
+    font-size:84px;
+    font-style:normal;
+    font-weight:700;
+    line-height:89px;
+    letter-spacing:-3.36px;
+    margin-top:20px;
+}
+
+.travel-h4-text{
+    color:#5E6282;
+    font-family:Poppins;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:30px;
+    margin-top:20px;
+}
+
+.travel-display-flex-div{
+    width:350px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:30px;
+}
+
+.play-img{
+    margin-top:15px;
+}
+
+.button-find-out-more{
+    width:170px;
+    height:60px;
+    border:solid 1px #F1A501;
+    border-radius:10px;
+    background:var(--yellow, #F1A501);
+    box-shadow:0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family:Sans;
+    font-size:18px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    cursor:pointer;
+}
+
+.travel-h3-text{
+    color:#686D77;
+    font-family:Poppins;
+    font-size:17px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
+}
+
+.section-best-services{
+    width:100%;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#FFF;
+}
+
+.services-conteiner{
+    width:95%;
+}
+
+.servisec-h3-text{
+    color:#5E6282;
+    text-align:center;
+    font-family:Poppins;
+    font-size:18px;
+    font-style:normal;
+    font-weight:600;
+    line-height:normal;
+}
+
+.paragraf-services{
+    color:#14183E;
+    text-align:center;
+    font-family:Volkhov;
+    font-size:50px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    text-transform:capitalize;
+    margin-top:20px;
+}
+
+.servisec-text-div{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:30px;
+}
+
+.servisec-div-flights{
+    width:267px;
+    height:314px;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    border-radius:36px;
+    background: var(--white, #FFF);
+    box-shadow:0px 100px 80px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+    gap:20px;
+}
+
+.servisec-div{
+    width:267px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+}
+
+.paragraf-services-best{
+    color:var(--text-heading-color, #1E1D4C);
+    font-family:Open Sans;
+    font-size:20px;
+    font-style:normal;
+    font-weight:600;
+    line-height:normal;
+}
+
+.services-h6-text{
+    color:#5E6282;
+    text-align:center;
+    font-family:Poppins;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:26px;
+}
+
+.section-destinations{
+    width:100%;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#FFF;
+}
+
+.destinations-conteiner{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.destinations-h3-text{
+    color:var(--TEXT-CLR, #5E6282);
+    text-align:center;
+    font-family:Poppins;
+    font-size:18px;
+    font-style:normal;
+    font-weight:600;
+    line-height:normal;
+}
+
+.paragraf-destinations{
+    color:var(--3rd, #14183E);
+    text-align:center;
+    font-family:Volkhov;
+    font-size:50px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    text-transform:capitalize;
+    margin-top:20px;
+}
+
+.destinations-img-div{
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+}
+
+.section-book-trip{
+    width:100%;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#FFF;
+}
+
+.conteiner-book-trip{
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+.book-trip-text-div{
+    width:800px;
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.paragraf-book-trip{
+    color:var(--3rd, #14183E);
+    font-family:Volkhov;
+    font-size:50px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    text-transform:capitalize;
+}
+
+.book-trip-div{
+    width:400px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+}
+
+.trip-div{
+    width:320px;
+}
+
+.paragraf-choose-destination{
+    color:var(--TEXT-CLR, #5E6282);
+    font-family:Poppins;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:124.5%;
+}
+
+.lorem-h4-text{
+    color:var(--TEXT-CLR, #5E6282);
+    font-family:Poppins;
+    font-size:15px;
+    font-style:normal;
+    font-weight:400;
+    line-height:124.5%; 
+    margin-top:6px;
+}
+
+.section-travell-logo{
+    width:100%;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.conteiner-travell-logo{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer{
+    width:100%;
+    padding:80px;
+    background:#FFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.conteiner-footer{
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left:60px;
+}
+
+.footer-logo-div{
+    width:280px;
+}
+
+.footer-div{
+    width:500px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+}
+
+.footer-contact-div{
+    width:220px;
+}
+
+.footer-icon-div{
+    width:280px;
+}
+
+.footer-h6-text{
+    color:#5E6282;
+    font-family:Poppins;
+    font-size:13px;
+    font-style:normal;
+    font-weight:400;
+    line-height:124.5%;
+    margin-top:20px;
+}
+
+.paragraf-footer{
+    color:var(--black, #080809);
+    font-family:Poppins;
+    font-size:21px;
+    font-style:normal;
+    font-weight:700;
+    line-height:124.5%;
+}
+
+.footer-h3-text{
+    color:var(--TEXT-CLR, #5E6282);
+    font-family:Poppins;
+    font-size:18px;
+    font-style:normal;
+    font-weight:400;
+    line-height:124.5%; 
+    margin-top:15px;
+}
+
+.footer-icon{
+    display:flex;
+    gap:25px;
+}
+
+.footer-h5-text{
+    color:var(--TEXT-CLR, #5E6282);
+    font-family:Poppins;
+    font-size:20px;
+    font-style:normal;
+    font-weight:400;
+    line-height:124.5%;
+    letter-spacing:0.1px;
+    margin-top:20px;
+    margin-left:8px;
+}
+
+.footer-display{
+    display:flex;
+    margin-top:20px;
+    gap:20px;
+}
